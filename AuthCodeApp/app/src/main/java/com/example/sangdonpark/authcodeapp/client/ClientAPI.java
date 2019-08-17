@@ -6,7 +6,8 @@ import com.example.sangdonpark.authcodeapp.client.profile.UserProfileAPI;
 
 public class ClientAPI {
 
-    public static final String BASE_URL = "10.0.2.2:8080";
+//    public static final String BASE_URL = "10.0.2.2:8080";
+    public static final String BASE_URL = "172.30.1.1:8080";
 
     public static UserProfileAPI userProfile() {
         RetrofitAPIFactory api = new RetrofitAPIFactory(BASE_URL, null);
