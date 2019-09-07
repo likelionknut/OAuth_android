@@ -1,3 +1,6 @@
+##### projects #####
+oauth_android_example/
+
 *.iml
 .gradle
 /local.properties
