@@ -1,11 +1,20 @@
 {
-  "client_id": "",
-  "redirect_uri": "net.openid.appauthdemo:/oauth2redirect",
-  "authorization_scope": "openid email profile",
+  //  "client_id": "",
+  "client_id": "resource_server",
+  //  "redirect_uri": "net.openid.appauthdemo:/oauth2redirect",
+  "redirect_uri": "https://appauth.demo-app.io/oauth2redirect",
+  //  "authorization_scope": "openid email profile",
+  "authorization_scope": "read_profile",
+  //  "discovery_uri": "",
   "discovery_uri": "",
-  "authorization_endpoint_uri": "",
-  "token_endpoint_uri": "",
+  //  "authorization_endpoint_uri": "",
+  "authorization_endpoint_uri": "http://172.30.1.1:8080/oauth/authorize",
+  //  "token_endpoint_uri": "",
+  "token_endpoint_uri": "http://172.30.1.1:8080/oauth/token",
+  //  "registration_endpoint_uri": "",
   "registration_endpoint_uri": "",
-  "user_info_endpoint_uri": "",
-  "https_required": true
+  //  "user_info_endpoint_uri": "",
+  "user_info_endpoint_uri": "http://172.30.1.1:8081/api/profile",
+  //  "https_required": true
+  "https_required": false
 }
