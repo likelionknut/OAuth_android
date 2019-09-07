@@ -282,7 +282,7 @@ public class TokenActivity extends AppCompatActivity {
             TokenRequest request,
             AuthorizationService.TokenResponseCallback callback) {
 //        ClientAuthentication clientAuthentication;
-        ClientAuthentication clientAuthentication = new ClientSecretBasic("abc123");
+        ClientAuthentication clientAuthentication = new ClientSecretBasic("abcd12345");
 //        try {
 //            clientAuthentication = mStateManager.getCurrent().getClientAuthentication();
 //        } catch (ClientAuthentication.UnsupportedAuthenticationMethod ex) {
